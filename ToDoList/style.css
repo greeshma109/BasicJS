@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgb(3, 89, 135);
+}
+#container{
+    height:300px;
+    width:300px;
+    background-color: rgb(141, 193, 237);
+    border-radius:15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,1);
+    transition: height 0.2s ease;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top:15px;
+}
+#taskInput{
+    border:1px solid #0c0000;
+    width:75%;
+    height:40px;
+    outline:none;
+    border-radius: 15px;
+    padding-left:15px;
+    margin: 10px 0 0 40px;
+}
+#abc,li button{
+    border:1px solid #0c0000;
+    width:50%;
+    height:20px;
+    outline:none;
+    border-radius: 8px;
+    padding-left:9px;
+    margin: 10px 0 0 70px;
+    background-color: rgb(6, 197, 240);
+    cursor:pointer;
+}
+#abc:hover
+{
+    background-color: rgb(3, 104, 158);
+}
+span{
+    text-align:end;
+}
+ul{
+    margin-left: 45px;
+}
+
